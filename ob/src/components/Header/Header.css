@@ -15,7 +15,11 @@
     padding: 0 1rem; 
 }
 
-.header__logo a{
+.header__logo {
+    margin-left: 0.5rem;
+}
+
+.header__logo a {
     color: white;
     text-decoration: none;
     font-size: 2rem;
