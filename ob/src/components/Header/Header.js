@@ -7,7 +7,7 @@ const Header = props => (
     <header className='header'>
         <nav className='header__navigation'>
             <div>
-                <DrawerToggleButton/>
+                <DrawerToggleButton click={props.drawerClickHandler}/>
             </div>
             <div className='header__logo'>OB</div>
             <div className='spacer'></div>
