@@ -1,0 +1,46 @@
+.header {
+    position: fixed;
+    width: 100%;
+    color: white;
+    background-color: black;
+    height: 56px;
+    top: 0;
+    left: 0;
+}
+/* padding val: top/bot padding and left/right padding. */
+.header__navigation{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 1rem; 
+}
+
+.header__logo a{
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.spacer{
+    flex: 1;
+}
+
+.header_navigation-items ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header_navigation-items li {
+    padding: 0 0.5rem
+}
+
+.header_navigation-items a {
+    color: white;
+    text-decoration: none;
+}
+
+.header_navigation-items a:hover, .header_navigation-items a:active{
+    color: #b3204a;
+}
