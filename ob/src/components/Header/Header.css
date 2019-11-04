@@ -16,7 +16,8 @@
 }
 
 .header__logo {
-    margin-left: 1rem;
+    display: flex;
+    align-items: center;
 }
 
 .header__logo a {

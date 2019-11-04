@@ -3,10 +3,14 @@ import React from 'react';
 import DrawerToggleButton from '../SideDrawer/DrawerToggleButton';
 import './Header.css';
 
+import logo from '../../assets/OB logo.jpg'
+
 const Header = props => (
     <header className='header'>
         <nav className='header__navigation'>
-            <div className='header__logo'>OB</div>
+            <div className='header__logo'>
+                <img src={logo} alt="Optional Boss Logo" height="50px" width="50px"/>
+            </div>
             <div className='spacer'></div>
             <div className='header__toggle-button'>
                 <DrawerToggleButton click={props.drawerClickHandler}/>
