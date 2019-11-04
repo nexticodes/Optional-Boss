@@ -48,3 +48,19 @@
 .header_navigation-items a:hover, .header_navigation-items a:active{
     color: #b3204a;
 }
+
+@media (max-width: 768px) {
+    .header_navigation-items {
+        display: none;
+    }
+}
+
+@media (min-width: 769px) {
+    .header__toggle-button {
+        display: none;
+    }
+
+    .header__logo {
+        margin-left: 0;
+    }
+}
