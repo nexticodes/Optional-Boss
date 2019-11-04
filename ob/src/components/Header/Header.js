@@ -6,11 +6,11 @@ import './Header.css';
 const Header = props => (
     <header className='header'>
         <nav className='header__navigation'>
+            <div className='header__logo'>OB</div>
+            <div className='spacer'></div>
             <div className='header__toggle-button'>
                 <DrawerToggleButton click={props.drawerClickHandler}/>
             </div>
-            <div className='header__logo'>OB</div>
-            <div className='spacer'></div>
             <div className='header_navigation-items'>
                 <ul>
                     <li><a href='/'>Home</a></li>
