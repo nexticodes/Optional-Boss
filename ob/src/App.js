@@ -25,20 +25,18 @@ class App extends Component {
 
   render(){
 
-    let sideDrawer;
     let backdrop;
 
     if (this.state.sideDrawerOpen) {
-      sideDrawer = <SideDrawer />;
       backdrop = <Backdrop click={this.backdropClickHandler} />
     }
 
     return (
       <div style={{height: '100%'}}>
         <Header drawerClickHandler={this.drawerToggleClickHandler}/>
-        {sideDrawer}
+        <SideDrawer show={this.state.sideDrawerOpen} />
         {backdrop}
-        <Router>
+        <Router>j
           <Route exact path='/' render={(props) => <Home/>}></Route>
         </Router>
       </div>
