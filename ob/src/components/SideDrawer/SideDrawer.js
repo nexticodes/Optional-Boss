@@ -3,7 +3,7 @@ import React from 'react';
 import './SideDrawer.css';
 
 const SideDrawer = props => (
-    <nav>
+    <nav className='side-drawer'>
         <ul>
             <li><a href='/'>Home</a></li>
             <li><a href='/'>Members</a></li>
