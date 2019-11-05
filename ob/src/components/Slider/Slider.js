@@ -9,25 +9,46 @@ import RightArrow from './RightArrow';
 const Slider = props => {
 
     const [currIndex, setCurrIndex] = useState(0);
+    const [translateValue, setTranslateValue] = useState(0);
 
     const images = [
-        'https://pbs.twimg.com/media/EF_8FwdU8AA_pTQ?format=jpg&name=400x400',
-        'https://pbs.twimg.com/media/EFbjItiUEAALV9k?format=jpg&name=400x400',
-        'https://pbs.twimg.com/media/EFbAxRLVAAAIkPV?format=jpg&name=400x400'
+        'https://s3.us-east-2.amazonaws.com/dzuz14/thumbnails/aurora.jpg',
+        'https://s3.us-east-2.amazonaws.com/dzuz14/thumbnails/canyon.jpg',
+        'https://s3.us-east-2.amazonaws.com/dzuz14/thumbnails/city.jpg'
     ]
 
     let goPrevSlide = () => {
-        (currIndex > 0) ? setCurrIndex(currIndex - 1) : setCurrIndex(images.length - 1)
+        if (currIndex <= 0) {
+            setCurrIndex(images.length - 1);
+            setTranslateValue(-(slideWidth() * (images.length - 1)));
+        } else {
+            setCurrIndex(currIndex - 1);
+            setTranslateValue(translateValue + (slideWidth()));
+        }
+
     }
 
     let goNextSlide = () => {
-        (currIndex < images.length - 1) ? setCurrIndex(currIndex + 1) : setCurrIndex(0)
+        if (currIndex >= images.length - 1) {
+            setCurrIndex(0);
+            setTranslateValue(0);
+        } else {
+            setCurrIndex(currIndex + 1);
+            setTranslateValue(translateValue + -(slideWidth()));
+        }
     }
+
+    let slideWidth = () => document.querySelector('.slide').clientWidth
 
     return (
         <div className='slider'>
-            <Slide/>
-            {currIndex}
+            <div className='slider-wrapper'
+                style={{
+                    transform: `translateX(${translateValue}px)`,
+                    transition: `transform ease-out 0.45s`
+                }}>            
+                    {images.map((e, i) => <Slide key={i} image={e}/> )}
+            </div>
             <LeftArrow prevSlide={goPrevSlide}/>
             <RightArrow nextSlide={goNextSlide}/>
         </div>
