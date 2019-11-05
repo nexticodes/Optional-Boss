@@ -26,6 +26,11 @@
     font-size: 2rem;
 }
 
+.header__logo img {
+    display: flex;
+    justify-content: space-around;
+}
+
 .spacer{
     flex: 1;
 }
