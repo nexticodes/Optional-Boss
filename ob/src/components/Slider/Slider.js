@@ -15,12 +15,6 @@ const Slider = props => {
         setTimeout(() => goNextSlide(), 3000)
     });
 
-    const images = [
-        'https://s3.us-east-2.amazonaws.com/dzuz14/thumbnails/aurora.jpg',
-        'https://s3.us-east-2.amazonaws.com/dzuz14/thumbnails/canyon.jpg',
-        'https://s3.us-east-2.amazonaws.com/dzuz14/thumbnails/city.jpg'
-    ]
-
     let goPrevSlide = () => {
         if (currIndex <= 0) {
             setCurrIndex(images.length - 1);
@@ -43,6 +37,12 @@ const Slider = props => {
     }
 
     let slideWidth = () => document.querySelector('.slide').clientWidth
+
+    const images = [
+        'https://res.cloudinary.com/nexticus-cloud/image/upload/v1573064556/OBfam.jpg',
+        `https://res.cloudinary.com/nexticus-cloud/image/upload/v1573067027/OBtrio.jpg`,
+        'https://res.cloudinary.com/nexticus-cloud/image/upload/v1573064556/OBepic.jpg'
+    ]
 
     return (
         <div className='slider'>
