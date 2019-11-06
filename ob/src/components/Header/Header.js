@@ -9,7 +9,7 @@ const Header = props => (
     <div className='header'>
         <nav className='header__navigation'>
             <div className='header__logo'>
-                <a href='/'><img src={logo} alt="Optional Boss Logo" height="50px" width="50px"/></a>
+                <a href='/'><img src={logo} alt="Optional Boss Logo" height="50px" width="50px"/><span className='logo-name'>Optional Boss</span></a>
             </div>
             <div className='spacer'></div>
             <div className='header__toggle-button'>
