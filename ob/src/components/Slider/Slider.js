@@ -51,7 +51,7 @@ const Slider = props => {
             </div>
             <div className='slider-arrows-wrapper'>
                 <LeftArrow prevSlide={goPrevSlide}/>
-                <div className='spacer'></div>
+                <div className='spacer'>{currIndex + 1} / {images.length}</div>
                 <RightArrow nextSlide={goNextSlide}/>
             </div>
         </div>
