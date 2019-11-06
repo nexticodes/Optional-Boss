@@ -24,11 +24,17 @@
     color: white;
     text-decoration: none;
     font-size: 2rem;
+    display: inline-flex;
+    justify-content: space-between;
+    cursor: pointer;
 }
 
 .header__logo img {
     display: flex;
-    justify-content: space-around;
+}
+
+.logo-name {
+    padding-top: 5px;
 }
 
 .spacer{
@@ -40,6 +46,7 @@
     margin: 0;
     padding: 0;
     display: flex;
+    font-size: 1.5rem;
 }
 
 .header_navigation-items li {
