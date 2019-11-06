@@ -27,3 +27,7 @@
 .spacer{
     flex: 0.5;
 }
+
+.backArrow, .nextArrow {
+    margin: 1rem;
+}
