@@ -18,3 +18,12 @@
     display: flex;
     flex-wrap: nowrap;
 }
+
+.slider-arrows-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.spacer{
+    flex: 0.5;
+}

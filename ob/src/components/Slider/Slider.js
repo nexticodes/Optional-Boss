@@ -49,8 +49,11 @@ const Slider = props => {
                 }}>            
                     {images.map((e, i) => <Slide key={i} image={e}/> )}
             </div>
-            <LeftArrow prevSlide={goPrevSlide}/>
-            <RightArrow nextSlide={goNextSlide}/>
+            <div className='slider-arrows-wrapper'>
+                <LeftArrow prevSlide={goPrevSlide}/>
+                <div className='spacer'></div>
+                <RightArrow nextSlide={goNextSlide}/>
+            </div>
         </div>
     );
 }
