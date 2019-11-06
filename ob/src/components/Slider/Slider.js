@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 
 import './Slider.css';
 
@@ -10,6 +10,10 @@ const Slider = props => {
 
     const [currIndex, setCurrIndex] = useState(0);
     const [translateValue, setTranslateValue] = useState(0);
+
+    useEffect(() => {
+        setTimeout(() => goNextSlide(), 3000)
+    });
 
     const images = [
         'https://s3.us-east-2.amazonaws.com/dzuz14/thumbnails/aurora.jpg',
