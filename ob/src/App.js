@@ -1,10 +1,12 @@
 import React, {Component} from 'react';
-import {BrowserRouter as Router, Route} from 'react-router-dom';
+import {BrowserRouter, Switch , Route} from 'react-router-dom';
 
 import Home from './components/Home/Home';
 import Header from './components/Header/Header';
 import SideDrawer from './components/SideDrawer/SideDrawer';
 import Backdrop from './components/Backdrop/Backdrop';
+
+import Members from './components/Members/Members';
 
 import axios from 'axios';
 
@@ -50,12 +52,15 @@ class App extends Component {
 
     return (
       <div style={{height: '100%'}}>
-        <Header drawerClickHandler={this.drawerToggleClickHandler}/>
-        <SideDrawer show={this.state.sideDrawerOpen} />
-        {backdrop}
-        <Router>j
-          <Route exact path='/' render={(props) => <Home/>}></Route>
-        </Router>
+        <BrowserRouter>
+          <Header drawerClickHandler={this.drawerToggleClickHandler}/>
+          <SideDrawer show={this.state.sideDrawerOpen} />
+          {backdrop}
+          <Switch>
+            <Route exact path='/' render={(props) => <Home/>}></Route>
+            <Route path='/members' render={(props) => <Members/>}></Route>
+          </Switch>
+        </BrowserRouter>
       </div>
     );
   }
