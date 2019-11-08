@@ -53,9 +53,10 @@
     padding: 0 0.5rem
 }
 
-.header_navigation-items a {
+.header_navigation-items a{
     color: white;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .header_navigation-items a:hover, .header_navigation-items a:active{
