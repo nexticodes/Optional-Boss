@@ -11,10 +11,6 @@ const Slider = props => {
     const [currIndex, setCurrIndex] = useState(0);
     const [translateValue, setTranslateValue] = useState(0);
 
-    useEffect(() => {
-        setTimeout(() => goNextSlide(), 3000)
-    });
-
     let goPrevSlide = () => {
         if (currIndex <= 0) {
             setCurrIndex(images.length - 1);
@@ -36,13 +32,17 @@ const Slider = props => {
         }
     }
 
-    let slideWidth = () => document.querySelector('.slide').clientWidth
+    let slideWidth = () => (document.querySelector('.slide')) ? document.querySelector('.slide').clientWidth : window.innerWidth 
 
     const images = [
         'https://res.cloudinary.com/nexticus-cloud/image/upload/v1573064556/OBfam.jpg',
         `https://res.cloudinary.com/nexticus-cloud/image/upload/v1573067027/OBtrio.jpg`,
         'https://res.cloudinary.com/nexticus-cloud/image/upload/v1573064556/OBepic.jpg'
-    ]
+    ];
+
+    useEffect(() => {
+        setTimeout(() => goNextSlide(), 3000)
+    });
 
     return (
         <div className='slider'>
