@@ -3,6 +3,8 @@ import React from 'react';
 import DrawerToggleButton from '../SideDrawer/DrawerToggleButton';
 import './Header.css';
 
+import {Link} from 'react-router-dom';
+
 import logo from '../../assets/OB logo.jpg'
 
 const Header = props => (
@@ -17,9 +19,9 @@ const Header = props => (
             </div>
             <div className='header_navigation-items'>
                 <ul>
-                    <li><a href='/'>Home</a></li>
-                    <li><a href='/'>Members</a></li>
-                    <li><a href='/'>Contact Us</a></li>
+                    <li><Link to='/'>Home</Link></li>
+                    <li><Link to='/members'>Members</Link></li>
+                    <li><Link to='/contact'>Contact Us</Link></li>
                 </ul>
             </div>
         </nav>
