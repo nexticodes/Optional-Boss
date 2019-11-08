@@ -6,6 +6,8 @@ import Header from './components/Header/Header';
 import SideDrawer from './components/SideDrawer/SideDrawer';
 import Backdrop from './components/Backdrop/Backdrop';
 
+import axios from 'axios';
+
 class App extends Component {
   state = {
     sideDrawerOpen: false
@@ -22,6 +24,21 @@ class App extends Component {
     // always close sidedrawer
     this.setState({sideDrawerOpen: false});
   };
+
+  apiCall = () => {
+    const response = axios.get('https://api.twitch.tv/helix/streams?user_login=Nexticus', {
+      headers:
+        {
+          'Content-Type': 'application/json',
+          'Client-ID': 'bsmusanbzprjf19r25tet37rk3pe84'
+        }
+    })
+    response.then((e) => console.log(e.data));
+  }
+
+  componentDidMount(){
+    this.apiCall();
+  }
 
   render(){
 
