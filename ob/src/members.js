@@ -38,7 +38,7 @@
         },
         {
             name: 'YassKiwii',
-            username: 'YassKiwii',
+            username: 'yasskiwii',
             games: 'Mostly platformers and RPGs. Enjoys exploring different genres of games.',
             likes: 'Food, all of it. Playing guitar, video games, and watching anime/tv',
             twitch: 'twitch.tv/yasskiwii',
@@ -47,7 +47,7 @@
         },
         {
             name: 'Bad Wolf',
-            username: 'Bxdwolf1',
+            username: 'Bxdwolf',
             games: 'Apex Legends, League of Legends, Overwatch, CS: GO, Survival Games like Rust and DayZ.',
             likes: 'I like hot wings. Outdoors and big tiddies. Also skateboarding fast eating ass and respecting weman. Hiking is also cool. Fave food is thicc booty. And burgers... Thicc burgers.',
             twitch: 'twitch.tv/bxdwolf',
