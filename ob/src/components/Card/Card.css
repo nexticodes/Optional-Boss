@@ -1,0 +1,13 @@
+.card {
+    height: 250px;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    border: 2px solid black;
+}
+
+
+@media (min-width: 769px){
+    .card {
+        
+    }
+}
