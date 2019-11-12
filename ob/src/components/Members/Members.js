@@ -10,7 +10,7 @@ const Members = (props) => {
             <main style={{marginTop: '70px', marginBottom: '74px'}}>
                 <h1>MEMBERS</h1>
                 <hr/>
-                {members.map(e => <h4>{<Card member={e}/>}</h4>)}
+                {members.map((e, i) => <Card key={i} member={e}/>)}
             </main>
         </div>
     );
