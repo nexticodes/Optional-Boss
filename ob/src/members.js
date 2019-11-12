@@ -1,7 +1,7 @@
 module.exports = {
     members: [
         {
-            img: '',
+            img: 'https://res.cloudinary.com/nexticus-cloud/image/upload/v1573592260/parthene0n.jpg',
             name: 'Cody',
             username: 'Parthene0n',
             games: 'Call Of Duty (BLOPS 4, MW), Apex Legends',
@@ -11,8 +11,8 @@ module.exports = {
             ig: 'instagram.com/parthene0n'
         },
         {
-            img: '',
-            name: 'Wilmer Valencia',
+            img: 'https://res.cloudinary.com/nexticus-cloud/image/upload/v1573588329/reasonlatency.jpg',
+            name: 'Wilmer',
             username: 'ReasonLatency',
             games: 'Apex Legends, any other FPS/RPG',
             likes: 'Photography, Cars, Music, Technology',
@@ -21,8 +21,8 @@ module.exports = {
             ig: 'instagram.com/therealwilmer'
         },
         {
-            img: '',
-            name: 'Ernest Bruno',
+            img: 'https://res.cloudinary.com/nexticus-cloud/image/upload/v1573588329/nexticus.jpg',
+            name: 'Ernest',
             username: 'Nexticus',
             games: 'Apex Legends, Call Of Duty, Anything',
             likes: 'Food, video games, working out, music, coding, spending time with my girl.',
@@ -31,7 +31,7 @@ module.exports = {
             ig: 'instagram.com/nexticus'
         },
         {
-            img: '',
+            img: 'https://res.cloudinary.com/nexticus-cloud/image/upload/v1573588329/leesarous.jpg',
             name: 'Lee',
             username: 'Leesarous',
             games: 'Overwatch, Apex Legends, Monster Hunter, Arcade Games',
@@ -41,7 +41,7 @@ module.exports = {
             ig: 'instagram.com/leesarous'
         },
         {
-            img: '',
+            img: 'https://res.cloudinary.com/nexticus-cloud/image/upload/v1573588329/yasskiwii.jpg',
             name: 'YassKiwii',
             username: 'yasskiwii',
             games: 'Mostly platformers and RPGs. Enjoys exploring different genres of games.',
@@ -51,7 +51,7 @@ module.exports = {
             ig: 'instagram.com/yasskiwii'
         },
         {
-            img: '',
+            img: 'https://res.cloudinary.com/nexticus-cloud/image/upload/v1573588329/bxdwolf.jpg',
             name: 'Bad Wolf',
             username: 'Bxdwolf',
             games: 'Apex Legends, League of Legends, Overwatch, CS: GO, Survival Games like Rust and DayZ.',
