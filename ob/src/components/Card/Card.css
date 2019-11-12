@@ -10,6 +10,7 @@
     color: white;
     letter-spacing: 2px;
     font-family: 'Tahoma';
+    border-radius: 20px;
 }
 
 .card-image{
@@ -19,7 +20,7 @@
 }
 
 .card-body textarea{
-    height: 6.5rem;
+    height: 6rem;
     text-align: center;
     background: black;
     color: white;
