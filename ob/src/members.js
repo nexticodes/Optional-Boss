@@ -1,6 +1,7 @@
 module.exports = {
     members: [
         {
+            img: '',
             name: 'Cody',
             username: 'Parthene0n',
             games: 'Call Of Duty (BLOPS 4, MW), Apex Legends',
@@ -10,6 +11,7 @@ module.exports = {
             ig: 'instagram.com/parthene0n'
         },
         {
+            img: '',
             name: 'Wilmer Valencia',
             username: 'ReasonLatency',
             games: 'Apex Legends, any other FPS/RPG',
@@ -19,6 +21,7 @@ module.exports = {
             ig: 'instagram.com/therealwilmer'
         },
         {
+            img: '',
             name: 'Ernest Bruno',
             username: 'Nexticus',
             games: 'Apex Legends, Call Of Duty, Anything',
@@ -28,6 +31,7 @@ module.exports = {
             ig: 'instagram.com/nexticus'
         },
         {
+            img: '',
             name: 'Lee',
             username: 'Leesarous',
             games: 'Overwatch, Apex Legends, Monster Hunter, Arcade Games',
@@ -37,6 +41,7 @@ module.exports = {
             ig: 'instagram.com/leesarous'
         },
         {
+            img: '',
             name: 'YassKiwii',
             username: 'yasskiwii',
             games: 'Mostly platformers and RPGs. Enjoys exploring different genres of games.',
@@ -46,6 +51,7 @@ module.exports = {
             ig: 'instagram.com/yasskiwii'
         },
         {
+            img: '',
             name: 'Bad Wolf',
             username: 'Bxdwolf',
             games: 'Apex Legends, League of Legends, Overwatch, CS: GO, Survival Games like Rust and DayZ.',
