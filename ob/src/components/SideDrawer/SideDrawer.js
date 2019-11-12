@@ -13,11 +13,11 @@ const SideDrawer = props => {
     return (  
         <nav className={drawerClasses}>
             <ul>
-                <li><Link to='/'>Home</Link></li>
+                <li><Link onClick={props.close} to='/'>Home</Link></li>
                 <li><hr/></li>
-                <li><Link to='/members'>Members</Link></li>
+                <li><Link onClick={props.close} to='/members'>Members</Link></li>
                 <li><hr/></li>
-                <li><Link to='/contact'>Contact Us</Link></li>
+                <li><Link onClick={props.close} to='/contact'>Contact Us</Link></li>
             </ul>
         </nav>
     );
