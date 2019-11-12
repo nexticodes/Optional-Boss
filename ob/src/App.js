@@ -40,6 +40,7 @@ class App extends Component {
 
   componentDidMount(){
     this.apiCall();
+    console.log(this.props);
   }
 
   render(){
@@ -54,7 +55,7 @@ class App extends Component {
       <div style={{height: '100%'}}>
         <BrowserRouter>
           <Header drawerClickHandler={this.drawerToggleClickHandler}/>
-          <SideDrawer show={this.state.sideDrawerOpen} />
+          <SideDrawer show={this.state.sideDrawerOpen} close={this.backdropClickHandler}/>
           {backdrop}
           <Switch>
             <Route exact path='/' render={(props) => <Home/>}></Route>
