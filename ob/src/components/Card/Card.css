@@ -2,12 +2,41 @@
     height: 250px;
     margin-left: 20vw;
     margin-right: 20vw;
+    margin-bottom: 20vw;
     border: 2px solid black;
+    box-shadow: 0px 0px 25px black;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    letter-spacing: 2px;
+    font-family: 'Tahoma';
+}
+
+.card-image{
+    height: 100rem;
+    width: 100rem;
+    display: none;
+}
+
+.card-body textarea{
+    height: 6.5rem;
+    text-align: center;
+    background: black;
+    color: white;
+    border: none;
+}
+
+.tag {
+    font-size: 12px;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    font-family: 'Arial'
 }
 
 
 @media (min-width: 769px){
     .card {
-        
+        margin-left: 30vw;
+        margin-right: 30vw;
     }
 }
