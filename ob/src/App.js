@@ -3,6 +3,7 @@ import {BrowserRouter, Switch , Route} from 'react-router-dom';
 
 import Home from './components/Home/Home';
 import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
 import SideDrawer from './components/SideDrawer/SideDrawer';
 import Backdrop from './components/Backdrop/Backdrop';
 
@@ -61,6 +62,7 @@ class App extends Component {
             <Route exact path='/' render={(props) => <Home/>}></Route>
             <Route path='/members' render={(props) => <Members/>}></Route>
           </Switch>
+          <Footer/>
         </BrowserRouter>
       </div>
     );
