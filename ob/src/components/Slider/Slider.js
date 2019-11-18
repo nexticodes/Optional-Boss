@@ -12,6 +12,7 @@ const Slider = props => {
     const [translateValue, setTranslateValue] = useState(0);
 
     let goPrevSlide = () => {
+        clearTimeout()
         if (currIndex <= 0) {
             setCurrIndex(images.length - 1);
             setTranslateValue(-(slideWidth() * (images.length - 1)));
@@ -23,6 +24,7 @@ const Slider = props => {
     }
 
     let goNextSlide = () => {
+        clearTimeout()
         if (currIndex >= images.length - 1) {
             setCurrIndex(0);
             setTranslateValue(0);
