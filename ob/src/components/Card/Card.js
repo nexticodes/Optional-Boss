@@ -42,10 +42,6 @@ const Card = (props) => {
                         <p className='tag'>Twitch Username</p>
                         {props.member.username}
                     </div>
-                    <div className='card-subtitle'>
-                        <p className='tag'>Name</p>
-                        {props.member.name}
-                    </div>
                     <div className='card-body'>
                         <p className='tag'>Likes</p>
                         <textarea readOnly value={props.member.likes}></textarea>
