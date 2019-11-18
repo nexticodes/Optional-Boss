@@ -22,8 +22,11 @@ const Members = (props) => {
 
     return (
         <div>
-            <main style={{marginTop: '70px', marginBottom: '74px'}}>
-                <h1>MEMBERS</h1>
+            <main style={{marginTop: '56px', marginBottom: '74px'}}>
+                <div className='image-container' style={{backgroundImage: `url(https://res.cloudinary.com/nexticus-cloud/image/upload/o_60/v1573064556/OBfam.jpg)`,
+                backgroundPosition: `50% 47.5%`,
+            }}><h1 className='contact--header'>MEMBERS</h1></div>
+
                 <hr/>
                 <div style={cardStyle}>Click on the cards for more info!</div>
                 <hr/>
