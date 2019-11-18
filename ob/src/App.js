@@ -8,6 +8,7 @@ import SideDrawer from './components/SideDrawer/SideDrawer';
 import Backdrop from './components/Backdrop/Backdrop';
 
 import Members from './components/Members/Members';
+import Contact from './components/Contact/Contact';
 
 import axios from 'axios';
 
@@ -61,6 +62,7 @@ class App extends Component {
           <Switch>
             <Route exact path='/' render={(props) => <Home/>}></Route>
             <Route path='/members' render={(props) => <Members/>}></Route>
+            <Route path='/contact' render={(props) => <Contact/>}></Route>
           </Switch>
           <Footer/>
         </BrowserRouter>
