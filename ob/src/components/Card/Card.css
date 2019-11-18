@@ -48,15 +48,21 @@
 }
 .tag {
     font-size: 12px;
-    margin-top: 12px;
+    margin-top: 25px;
     margin-bottom: 5px;
     font-family: 'Arial'
 }
 
+textarea {
+    overflow-x: hidden;
+    height: 20rem;
+    width: 15rem;
+}
+
 
 @media (min-width: 769px){
-    .card {
-        margin-left: 30vw;
-        margin-right: 30vw;
+    .scene {
+        margin-left: 5vw;
+        margin-right: 5vw;
     }
 }
