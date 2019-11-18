@@ -3,7 +3,8 @@ import React from 'react';
 import {members} from '../../members';
 
 import Card from '../Card/Card';
-import { whileStatement } from '@babel/types';
+
+import './Members.css';
 
 const Members = (props) => {
     const cardStyle = {
@@ -26,7 +27,9 @@ const Members = (props) => {
                 <hr/>
                 <div style={cardStyle}>Click on the cards for more info!</div>
                 <hr/>
+                <div className='card-container'>
                 {members.map((e, i) => <Card key={i} member={e}/>)}
+                </div>
             </main>
         </div>
     );
