@@ -22,10 +22,10 @@ class Twitch extends Component {
         }));
 
         Promise.all(promiseArray).then((values) => {
-            let memberData = values.map(e => e.data.data);
+            let membersData = values.map(e => (e.data.data.length == []) ? 'offline' : e.data.data);
             let membersArray = members;
             for (let i = 0; i < membersArray.length; i++){
-                membersArray[i].status = memberData[i];
+                membersArray[i].status = membersData[i];
             };
             this.setState({membersInfo: membersArray});
         });
@@ -37,16 +37,22 @@ class Twitch extends Component {
     }
 
     render(){
+        let onlineMembers = this.state.membersInfo.filter(e => e.status !== 'offline')
         return(
-            <div>
-                <h1>Who's online?</h1>
-                <hr/>
-                {console.log(this.state.membersInfo)}
-                <div className='twitch__status-container'>
-                    {this.state.membersInfo.map((e, i) => <Status key={i} member={e}/>)}
-                </div>
+            <div className='twitch__status-container'>
+                {
+                    (onlineMembers.length !== 0) 
+                    ?   <div>
+                            <h3>{onlineMembers.length} of our members are online!</h3>
+                            {onlineMembers.map((e, i) => <Status key={i} member={e}/> )} 
+                        </div>
+                    :   <div>
+                            <h3>None of our members are online!</h3>
+                            <p>Please check back later.</p>
+                        </div>
+                }
             </div>
-        ) 
+            )
     }
 
 }
