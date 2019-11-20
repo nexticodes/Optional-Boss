@@ -8,7 +8,8 @@ module.exports = {
             likes: 'Food, learning photography/film making, spending time with my wife',
             twitch: 'twitch.tv/parthene0n',
             twitter: 'twitter.com/parthene0n',
-            ig: 'instagram.com/parthene0n'
+            ig: 'instagram.com/parthene0n',
+            status: null
         },
         {
             img: 'https://res.cloudinary.com/nexticus-cloud/image/upload/v1573588329/reasonlatency.jpg',
@@ -18,7 +19,8 @@ module.exports = {
             likes: 'Photography, Cars, Music, Technology',
             twitch: 'twitch.tv/reasonlatency',
             twitter: 'twitter.com/reasonlatency',
-            ig: 'instagram.com/therealwilmer'
+            ig: 'instagram.com/therealwilmer',
+            status: null
         },
         {
             img: 'https://res.cloudinary.com/nexticus-cloud/image/upload/v1573588329/nexticus.jpg',
@@ -28,7 +30,8 @@ module.exports = {
             likes: 'Food, video games, working out, music, coding, spending time with my girl.',
             twitch: 'twitch.tv/nexticus',
             twitter: 'twitter.com/nexticus',
-            ig: 'instagram.com/nexticus'
+            ig: 'instagram.com/nexticus',
+            status: null
         },
         {
             img: 'https://res.cloudinary.com/nexticus-cloud/image/upload/v1573588329/leesarous.jpg',
@@ -38,7 +41,8 @@ module.exports = {
             likes: 'I like anime (not a weeaboo), I like Kpop (not a koreaboo), I like cats (and dogs), and I like my friends. UwU',
             twitch: 'twitch.tv/leesarous',
             twitter: 'twitter.com/leesarous',
-            ig: 'instagram.com/leesarous'
+            ig: 'instagram.com/leesarous',
+            status: null
         },
         {
             img: 'https://res.cloudinary.com/nexticus-cloud/image/upload/v1573588329/yasskiwii.jpg',
@@ -48,7 +52,8 @@ module.exports = {
             likes: 'Food, all of it. Playing guitar, video games, and watching anime/tv',
             twitch: 'twitch.tv/yasskiwii',
             twitter: 'twitter.com/yasskiwii',
-            ig: 'instagram.com/yasskiwii'
+            ig: 'instagram.com/yasskiwii',
+            status: null
         },
         {
             img: 'https://res.cloudinary.com/nexticus-cloud/image/upload/v1573588329/bxdwolf.jpg',
@@ -58,7 +63,8 @@ module.exports = {
             likes: 'I like hot wings. Outdoors and big tiddies. Also skateboarding fast eating ass and respecting weman. Hiking is also cool. Fave food is thicc booty. And burgers... Thicc burgers.',
             twitch: 'twitch.tv/bxdwolf',
             twitter: 'twitter.com/bxdwolf1',
-            ig: 'instagram.com/bxdwolf'
+            ig: 'instagram.com/bxdwolf',
+            status: null
         },
     ]
 }
