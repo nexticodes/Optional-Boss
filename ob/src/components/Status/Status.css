@@ -1,0 +1,27 @@
+.status__img {
+    height: 100px;
+    width: 100px;
+}
+
+.status__container {
+    border-top: 1px solid black;
+    padding: 20px;
+    display: flex;
+}
+
+.status__details {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: auto;
+}
+
+.status__details img {
+    height: 15px;
+    width: 15px;
+}
+
+.status__details p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
