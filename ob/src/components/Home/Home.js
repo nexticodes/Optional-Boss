@@ -12,6 +12,8 @@ const Home = (props) => {
             </main>
             <About/>
             <div className='social-media-container'>
+                <h1>Who's online?</h1>
+                <hr/>
                 <Twitch/>
             </div>
         </div>
