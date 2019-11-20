@@ -4,6 +4,7 @@ import './Twitch.css';
 import Status from './../Status/Status';
 
 import axios from 'axios';
+import './Twitch.css';
 import {members} from './../../members';
 
 
@@ -38,21 +39,28 @@ class Twitch extends Component {
 
     render(){
         let onlineMembers = this.state.membersInfo.filter(e => e.status !== 'offline')
-        return(
-            <div className='twitch__status-container'>
-                {
-                    (onlineMembers.length !== 0) 
-                    ?   <div>
-                            <h3>{onlineMembers.length} of our members are online!</h3>
-                            {onlineMembers.map((e, i) => <Status key={i} member={e}/> )} 
-                        </div>
-                    :   <div>
-                            <h3>None of our members are online!</h3>
-                            <p>Please check back later.</p>
-                        </div>
-                }
+        return (
+            <div>
+
+                <div className='twitch__container'>
+                    <div className='twitch__header'>
+                        <h2>Who's online?</h2>
+                    </div>
+                    <div className='twitch__main'>
+                        {
+                            (onlineMembers.length !== 0) 
+                            ?   <div>
+                                    {onlineMembers.map((e, i) => <Status key={i} member={e}/> )} 
+                                </div>
+                            :   <div>
+                                    <h3>None of our members are online!</h3>
+                                    <p>Please check back later.</p>
+                                </div>
+                        }
+                    </div>
+                </div>
             </div>
-            )
+        )
     }
 
 }
