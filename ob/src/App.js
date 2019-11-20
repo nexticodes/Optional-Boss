@@ -10,11 +10,12 @@ import Backdrop from './components/Backdrop/Backdrop';
 import Members from './components/Members/Members';
 import Contact from './components/Contact/Contact';
 
-import axios from 'axios';
+
 
 class App extends Component {
   state = {
-    sideDrawerOpen: false
+    sideDrawerOpen: false,
+    membersInfo: []
   }
 
 
@@ -29,21 +30,7 @@ class App extends Component {
     this.setState({sideDrawerOpen: false});
   };
 
-  apiCall = () => {
-    const response = axios.get('https://api.twitch.tv/helix/streams?user_login=Nexticus', {
-      headers:
-        {
-          'Content-Type': 'application/json',
-          'Client-ID': 'bsmusanbzprjf19r25tet37rk3pe84'
-        }
-    })
-    response.then((e) => console.log(e.data));
-  }
 
-  componentDidMount(){
-    this.apiCall();
-    console.log(this.props);
-  }
 
   render(){
 
