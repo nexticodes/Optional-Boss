@@ -1,0 +1,18 @@
+.twitch__container {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    border-radius: 15px;
+}
+
+.twitch__header {
+    height: 80px;
+    background: black;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+}
