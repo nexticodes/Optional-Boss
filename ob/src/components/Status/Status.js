@@ -17,26 +17,26 @@ const Status = (props) => {
                 }
         }).then((res) => {
             let apiData = res.data.data[0]
-            console.log(apiData);
             setImg(apiData.profile_image_url);
         });
     }
 
     let getGame = async () => {
-        await axios.get(`https://api.twitch.tv/helix/games?id=${props.member.status[0].game_id}`, {
-            headers: {
-            'Content-Type': 'application/json',
-            'Client-ID': 'bsmusanbzprjf19r25tet37rk3pe84'
-            }
-        }).then((res) => {
-            setGame(res.data.data[0].name);
-        });
+        if (props.member.status !== []){
+            await axios.get(`https://api.twitch.tv/helix/games?id=${props.member.status[0].game_id}`, {
+                headers: {
+                'Content-Type': 'application/json',
+                'Client-ID': 'bsmusanbzprjf19r25tet37rk3pe84'
+                }
+            }).then((res) => {
+                setGame(res.data.data[0].name);
+            }).catch((err) => console.log(err));
+        }
     }
 
 
-    getUser();
-    getGame();
-    console.log(props.member)
+    getUser()
+    getGame()
 
     return (
         <div className='status__container'>
