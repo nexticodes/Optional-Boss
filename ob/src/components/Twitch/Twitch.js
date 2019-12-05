@@ -23,7 +23,7 @@ class Twitch extends Component {
         }));
 
         Promise.all(promiseArray).then((values) => {
-            let membersData = values.map(e => (e.data.data.length == []) ? 'offline' : e.data.data);
+            let membersData = values.map(e => (e.data.data.length === []) ? 'offline' : e.data.data);
             let membersArray = members;
             for (let i = 0; i < membersArray.length; i++){
                 membersArray[i].status = membersData[i];

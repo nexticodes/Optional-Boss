@@ -40,9 +40,9 @@ const Status = (props) => {
 
     return (
         <div className='status__container'>
-            <img className='status__img' src={img}/>
+            <img className='status__img' src={img}  alt='LOL'/>
             <div className='status__details'>
-                <p><img src={live}/><em>LIVE!</em></p>
+                <p><img src={live}  alt='status'/><em>LIVE!</em></p>
                 <p>{props.member.username}</p>
                 <p>Playing: <em>{game}</em></p>
             </div>
