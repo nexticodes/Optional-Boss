@@ -7,12 +7,12 @@
     border: 2px solid black;
     margin-top: 5vh;
     margin-bottom: 5vh;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 .twitch__header {
     height: 80px;
     background: black;
     color: white;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 3px 3px 0px 0px;
 }

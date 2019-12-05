@@ -34,11 +34,20 @@ class Twitch extends Component {
 
 
     componentDidMount(){
-        this.getMembersInfo();
+        this.getMembersInfo()
+        setInterval(() => {
+            this.getMembersInfo();
+            console.log('Updating members info.');
+        }, 30000);
+    }
+
+    componentWillUnmount(){
+        clearInterval();
+        console.log('Interval cleared');
     }
 
     render(){
-        let onlineMembers = this.state.membersInfo.filter(e => e.status !== 'offline')
+        let onlineMembers = this.state.membersInfo.filter(e => e.status.length !== 0);
         return (
             <div>
 
