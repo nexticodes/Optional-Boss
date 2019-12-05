@@ -47,7 +47,7 @@ module.exports = {
         {
             img: 'https://res.cloudinary.com/nexticus-cloud/image/upload/v1573588329/yasskiwii.jpg',
             name: 'YassKiwii',
-            username: 'yaskiwii',
+            username: 'yasskiwii',
             games: 'Mostly platformers and RPGs. Enjoys exploring different genres of games.',
             likes: 'Food, all of it. Playing guitar, video games, and watching anime/tv',
             twitch: 'twitch.tv/yasskiwii',
