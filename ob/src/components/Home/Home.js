@@ -3,6 +3,7 @@ import React from 'react';
 import Slider from '../Slider/Slider';
 import About from '../About/About';
 import Twitch from '../Twitch/Twitch';
+import Twitter from '../Twitter/Twitter';
 
 const Home = (props) => {
     return (
@@ -13,6 +14,7 @@ const Home = (props) => {
             <About/>
             <div className='social-media-container'>
                 <Twitch/>
+                <Twitter/>
             </div>
         </div>
     )
