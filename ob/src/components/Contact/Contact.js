@@ -42,11 +42,15 @@ class Contact extends Component {
             color: 'white',
             border: '2px dotted white',
         }
+
+        const emStyle = {
+            letterSpacing: '1px'
+        }
         return (
             <div style={{marginTop: '56px', marginBottom: '74px'}}>
                 <div className='image-container' style={{backgroundImage: `url('https://res.cloudinary.com/nexticus-cloud/image/upload/o_60/v1573067027/OBtrio.jpg')`}}><h1 className='contact--header'>CONTACT US</h1></div>
                 <hr/>
-                <div style={cardStyle}>Please fill out the form below and we'll get back to you ASAP!</div>
+                {/* <div style={cardStyle}>Please fill out the form below and we'll get back to you ASAP!</div>
                 <hr/>
                 <form>
 
@@ -59,7 +63,9 @@ class Contact extends Component {
 
 
                     <button type='button' onClick={this.handleSubmit}>Submit</button>
-                </form>
+                </form> */}
+                <h1>Thank you for showing your interest to us!</h1>
+                <h6 style={emStyle}>Please email all your questions and inquiries to <em>Contact@optionalboss.com</em> and we will get back to you as soon as we can.</h6>
             </div>
         )
     }
