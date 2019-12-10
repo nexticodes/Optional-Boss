@@ -80,7 +80,14 @@ router.get('/:name', (req, res, next) => {
     const member = MEMBERS.find( m => {
         return m.username.toLowerCase() === memberName
     });
-    res.json({member})
+
+    if (!member){
+        return res.status(404).json({
+            message: 'Couldn\'t find a place for the given name!'
+        });
+    }
+
+    res.json({member});
 });
 
 module.exports = router;
