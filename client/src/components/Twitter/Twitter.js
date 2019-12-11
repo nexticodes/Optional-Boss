@@ -47,7 +47,7 @@ class Twitter extends Component {
                                 <img src={logo} height='30px' width='30px'alt='OB LOGO'/><h4><a href='http://twitter.com/tmoptionalboss' target='_blank' rel="noopener noreferrer">@tmoptionalboss</a></h4>
                                 <p>{e.text}</p>
                         <p style={{'color':'gray'}}>Created {this.getTime(e.created_at)}</p>
-                                {i !== tweets.length - 1 ? <hr/> : ''}
+                                {i !== tweets.length - 1 ? <hr className='hr'/> : ''}
                             </div>
                         )}
                     </div>
