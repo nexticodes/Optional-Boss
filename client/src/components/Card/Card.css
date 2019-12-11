@@ -59,6 +59,17 @@ textarea {
     width: 15rem;
 }
 
+.card-social img{
+    height: 30px;
+    width: 30px;
+}
+
+.card-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 
 @media (min-width: 769px){
     .scene {
