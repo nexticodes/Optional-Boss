@@ -1,0 +1,39 @@
+.twitter__container {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    height: 60vh;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    border-radius: 5px;
+}
+
+.twitter__header {
+    height: 80px;
+    background: black;
+    color: white;
+    border-radius: 3px 3px 0px 0px;
+    letter-spacing: 1px;
+}
+
+.twitter__main{
+    margin-top: 10px;
+    font-family: 'Arial';
+    overflow-y: scroll;
+}
+
+.twitter__header img {
+    margin-top: 10px;
+}
+
+.twitter__tweet {
+    padding: 5px;
+}
+
+.twitter__tweet h4 {
+    margin: 0px;
+    align-items: center;
+}
