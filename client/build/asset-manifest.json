@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Optional-Boss/static/css/main.a7fc6bfb.chunk.css",
-    "main.js": "/Optional-Boss/static/js/main.d54e0c11.chunk.js",
-    "main.js.map": "/Optional-Boss/static/js/main.d54e0c11.chunk.js.map",
+    "main.js": "/Optional-Boss/static/js/main.c41b55d0.chunk.js",
+    "main.js.map": "/Optional-Boss/static/js/main.c41b55d0.chunk.js.map",
     "runtime-main.js": "/Optional-Boss/static/js/runtime-main.5efc760c.js",
     "runtime-main.js.map": "/Optional-Boss/static/js/runtime-main.5efc760c.js.map",
     "static/js/2.31a104e6.chunk.js": "/Optional-Boss/static/js/2.31a104e6.chunk.js",
     "static/js/2.31a104e6.chunk.js.map": "/Optional-Boss/static/js/2.31a104e6.chunk.js.map",
     "index.html": "/Optional-Boss/index.html",
-    "precache-manifest.a09e783e9c694450f1eaf5f2836469ad.js": "/Optional-Boss/precache-manifest.a09e783e9c694450f1eaf5f2836469ad.js",
+    "precache-manifest.87c96485cec50304cad0285a3c0595f8.js": "/Optional-Boss/precache-manifest.87c96485cec50304cad0285a3c0595f8.js",
     "service-worker.js": "/Optional-Boss/service-worker.js",
     "static/css/main.a7fc6bfb.chunk.css.map": "/Optional-Boss/static/css/main.a7fc6bfb.chunk.css.map",
     "static/media/OB logo.jpg": "/Optional-Boss/static/media/OB logo.66380ffb.jpg",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.5efc760c.js",
     "static/js/2.31a104e6.chunk.js",
     "static/css/main.a7fc6bfb.chunk.css",
-    "static/js/main.d54e0c11.chunk.js"
+    "static/js/main.c41b55d0.chunk.js"
   ]
 }
