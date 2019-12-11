@@ -44,7 +44,7 @@ class Twitter extends Component {
                     <div className='twitter__main'>
                         {tweets.map((e, i) => 
                             <div key={i} className='twitter__tweet'>
-                                <img src={logo} height='30px' width='30px'/><h4><a href='http://twitter.com/tmoptionalboss' target='_blank'>@tmoptionalboss</a></h4>
+                                <img src={logo} height='30px' width='30px'alt='OB LOGO'/><h4><a href='http://twitter.com/tmoptionalboss' target='_blank' rel="noopener noreferrer">@tmoptionalboss</a></h4>
                                 <p>{e.text}</p>
                         <p style={{'color':'gray'}}>Created {this.getTime(e.created_at)}</p>
                                 {i !== tweets.length - 1 ? <hr/> : ''}

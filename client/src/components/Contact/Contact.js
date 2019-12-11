@@ -30,18 +30,18 @@ class Contact extends Component {
     }
 
     render(){
-        const cardStyle = {
-            height: '4vh',
-            width: '60vw',
-            margin: '15px auto',
-            padding: '15px',
-            textAlign: 'center',
-            background: 'black',
-            textShadow: '0px 10px 10px white',
-            fontSize: '2.5vh',
-            color: 'white',
-            border: '2px dotted white',
-        }
+        // const cardStyle = {
+        //     height: '4vh',
+        //     width: '60vw',
+        //     margin: '15px auto',
+        //     padding: '15px',
+        //     textAlign: 'center',
+        //     background: 'black',
+        //     textShadow: '0px 10px 10px white',
+        //     fontSize: '2.5vh',
+        //     color: 'white',
+        //     border: '2px dotted white',
+        // }
 
         const emStyle = {
             letterSpacing: '1px',
