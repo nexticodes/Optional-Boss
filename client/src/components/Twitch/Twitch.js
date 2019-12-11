@@ -50,10 +50,10 @@ class Twitch extends Component {
         let onlineMembers = this.state.membersInfo.filter(e => e.status.length !== 0);
         return (
             <div>
-
                 <div className='twitch__container'>
                     <div className='twitch__header'>
-                        <h2>Who's online?</h2>
+                        <h2 style={{'marginBottom': '0px'}}>Who's online?</h2>
+                        <p style={{'color':'gray', 'marginTop': '0px'}}>Updates every 30 secs</p>
                     </div>
                     <div className='twitch__main'>
                         {
