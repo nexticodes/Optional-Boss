@@ -14,9 +14,9 @@ const Footer = props => (
                 <img src={logo} alt="Optional Boss Logo" height="80px" width="80px"/><span className='footer__logo-name'>OB</span>
             </div>
             <div className='footer_navigation-items'>
-                <a href='http://www.twitter.com/tmoptionalboss'><img src={tw} alt="Twitter" height="40px" width="40px"/></a>
-                <a href='http://www.instagram.com/tmoptionalboss'><img src={ig} alt="IG" height="40px" width="40px"/></a>
-                <a href='https://discord.gg/qwEcRDj'><img src={disc} alt="Discord" height="40px" width="40px"/></a>
+                <a href='http://www.twitter.com/tmoptionalboss' target='_blank'><img src={tw} alt="Twitter" height="40px" width="40px"/></a>
+                <a href='http://www.instagram.com/tmoptionalboss' target='_blank'><img src={ig} alt="IG" height="40px" width="40px"/></a>
+                <a href='https://discord.gg/qwEcRDj' target='_blank'><img src={disc} alt="Discord" height="40px" width="40px"/></a>
             </div>
             <div className='footer__text'>
                 <hr/>
