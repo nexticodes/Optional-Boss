@@ -5,6 +5,8 @@ import About from '../About/About';
 import Twitch from '../Twitch/Twitch';
 import Twitter from '../Twitter/Twitter';
 
+import './Home.css';
+
 const Home = (props) => {
     return (
         <div>

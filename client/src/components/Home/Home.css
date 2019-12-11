@@ -1,0 +1,7 @@
+@media (min-width: 769px){
+    .social-media-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
