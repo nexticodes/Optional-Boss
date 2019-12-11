@@ -9,7 +9,7 @@ const twitterRoutes = require('./routes/twitter-route');
 const emailRoutes = require('./routes/email-route');
 
 const app = express();
-app.use(express.static(path.join('client/build')));
+app.use('/Optional-Boss/', express.static(path.join('client/build')));
 
 app.use(cors());
 
