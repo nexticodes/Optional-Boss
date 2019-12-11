@@ -11,7 +11,7 @@ class Twitter extends Component {
     }
 
     getTweets(){
-        axios.get('http://localhost:5000/api/twitter/tweets')
+        axios.get('https://optional-boss.herokuapp.com/api/twitter/tweets')
                 .then((res) => {
                     this.setState({tweets: res.data.data});
                 })
