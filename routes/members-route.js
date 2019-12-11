@@ -83,7 +83,7 @@ router.get('/:name', (req, res, next) => {
 
     if (!member){
         return res.status(404).json({
-            message: 'Couldn\'t find a place for the given name!'
+            message: 'Couldn\'t find member!'
         });
     }
 
