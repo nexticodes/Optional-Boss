@@ -43,8 +43,11 @@ const Slider = props => {
     ];
 
     useEffect(() => {
-        setTimeout(() => goNextSlide(), 3000)
-    }, clearTimeout());
+        let timer = setTimeout(() => goNextSlide(), 3000);
+        return () => {
+            clearTimeout(timer);
+        }
+    });
 
     return (
         <div className='slider'>
