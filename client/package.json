@@ -1,7 +1,7 @@
 {
   "name": "ob",
   "version": "0.1.0",
-  "homepage": "http://nexticodes.github.io/ob",
+  "homepage": "http://nexticodes.github.io/Optional-Boss",
   "private": false,
   "dependencies": {
     "axios": "^0.19.0",
