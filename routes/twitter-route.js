@@ -1,7 +1,6 @@
 const express = require('express');
 const axios = require('axios');
 const Twit = require('twit');
-let dotenv = require('dotenv').config();
 
 const router = express.Router();
 
