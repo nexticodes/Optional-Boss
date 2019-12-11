@@ -6,6 +6,7 @@ const dotenv = require('dotenv').config({path: path.join(__dirname, '.env')})
 
 const membersRoutes = require('./routes/members-route');
 const twitterRoutes = require('./routes/twitter-route');
+const emailRoutes = require('./routes/email-route');
 
 const app = express();
 
@@ -13,6 +14,7 @@ app.use(cors());
 
 app.use('/api/members', membersRoutes);
 app.use('/api/twitter', twitterRoutes);
+app.use('/email', emailRoutes);
 
 
 
