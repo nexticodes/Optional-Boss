@@ -9,9 +9,10 @@ const twitterRoutes = require('./routes/twitter-route');
 const emailRoutes = require('./routes/email-route');
 
 const app = express();
+app.use(express.static(path.join('client/build')));
 
 app.use(cors());
-app.use(express.static(path.join('client/build')))
+
 
 app.use('/api/members', membersRoutes);
 app.use('/api/twitter', twitterRoutes);

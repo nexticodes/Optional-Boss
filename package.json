@@ -2,7 +2,7 @@
   "name": "observer",
   "version": "1.0.0",
   "description": "",
-  "homepage": "http://nexticodes.github.io/Optional-Boss",
+  "homepage": "http://optional-boss.herokupp.com",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
