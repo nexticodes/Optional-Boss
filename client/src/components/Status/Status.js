@@ -34,7 +34,6 @@ const Status = (props) => {
         }
     }
 
-
     getUser()
     getGame()
 
@@ -45,6 +44,7 @@ const Status = (props) => {
                 <p><img src={live}  alt='status'/><em>LIVE!</em></p>
                 <p>{props.member.username}</p>
                 <p>Playing: <em>{game}</em></p>
+                <a className='status__link' href={props.member.twitch} target='_blank' rel="noopener noreferrer">Watch now</a>
             </div>
         </div>
     )
