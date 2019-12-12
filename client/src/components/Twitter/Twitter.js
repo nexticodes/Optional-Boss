@@ -42,7 +42,7 @@ class Twitter extends Component {
                         <img src={tw} alt='Twitter Logo'/>
                         <div>
                             <h2 style={{'marginBottom': '0px'}}>Recent Tweets</h2>
-                            <p style={{'color':'gray', 'marginTop': '0px'}}>Updates every 30 secs</p>
+                            <p style={{'color':'gray', 'marginTop': '0px', 'fontSize': '12px'}}>Updates every 30 secs</p>
                         </div>
                     </div>
                     <div className='twitter__main'>

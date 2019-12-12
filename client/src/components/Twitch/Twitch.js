@@ -57,7 +57,7 @@ class Twitch extends Component {
                         <img src={tw} alt='Twitch Logo'/>
                         <div>
                             <h2 style={{'marginBottom': '0px'}}>Who's online?</h2>
-                            <p style={{'color':'gray', 'marginTop': '0px'}}>Updates every 30 secs</p>
+                            <p style={{'color':'gray', 'marginTop': '0px', 'fontSize': '12px'}}>Updates every 30 secs</p>
                         </div>
                     </div>
                     <div className='twitch__main'>
