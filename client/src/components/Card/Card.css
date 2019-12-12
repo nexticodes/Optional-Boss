@@ -6,7 +6,6 @@
     margin-bottom: 2rem;
     margin-top: 2rem;
     perspective: 600px;
-    cursor: pointer;
 }
 
 .card__face {
@@ -18,7 +17,6 @@
     font-weight: bold;
     font-size: 40px;
     backface-visibility: hidden;
-    cursor: pointer;
 }
 
 .card__face--front {
@@ -36,11 +34,14 @@
     border-radius: 20px;
     border: 2px solid black;
     box-shadow: 0px 10px 8px black;
+}
+
+.card__face--back button:hover {
     cursor: pointer;
 }
 
 .card-body textarea{
-    height: 6rem;
+    height: 2.5rem;
     text-align: center;
     background: black;
     color: white;
@@ -59,16 +60,22 @@ textarea {
     width: 15rem;
 }
 
-.card-social img{
-    height: 30px;
-    width: 30px;
-}
 
 .card-social {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
+
+.card-social img{
+    height: 30px;
+    width: 30px;
+}
+
+.card-social img:hover{
+    cursor: pointer;
+}
+
 
 
 @media (min-width: 769px){
