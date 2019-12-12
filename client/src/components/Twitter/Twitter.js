@@ -4,6 +4,7 @@ import axios from 'axios';
 import './Twitter.css';
 
 import logo from '../../assets/OB logo.jpg'
+import tw from '../../assets/Twitter-Logo-COLORED.png'
 
 class Twitter extends Component {
     state = {
@@ -38,8 +39,11 @@ class Twitter extends Component {
             <div>
                 <div className='twitter__container'>
                     <div className='twitter__header'>
-                        <h2 style={{'marginBottom': '0px'}}>Recent Tweets By OB</h2>
-                        <p style={{'color':'gray', 'marginTop': '0px'}}>Updates every 30 secs</p>
+                        <img src={tw} alt='Twitter Logo'/>
+                        <div>
+                            <h2 style={{'marginBottom': '0px'}}>Recent Tweets By OB</h2>
+                            <p style={{'color':'gray', 'marginTop': '0px'}}>Updates every 30 secs</p>
+                        </div>
                     </div>
                     <div className='twitter__main'>
                         {tweets.map((e, i) => 
