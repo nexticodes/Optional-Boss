@@ -3,7 +3,9 @@ body {
   /* font-family: -apple-system, BlinkMacSystemFont, "Impact", "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif; */
-  font-family: Impact, Impact5, Charcoal6, sans-serif;
+  /* font-family: Impact, Impact5, Charcoal6, sans-serif;
+   */
+   font-family: Impact,Haettenschweiler,Franklin Gothic Bold,Charcoal,Helvetica Inserat,Bitstream Vera Sans Bold,Arial Black,sans serif; 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding: 0;

@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Optional-Boss/static/css/main.94e7220d.chunk.css",
-    "main.js": "/Optional-Boss/static/js/main.22330731.chunk.js",
-    "main.js.map": "/Optional-Boss/static/js/main.22330731.chunk.js.map",
+    "main.css": "/Optional-Boss/static/css/main.2c29f020.chunk.css",
+    "main.js": "/Optional-Boss/static/js/main.08ad682e.chunk.js",
+    "main.js.map": "/Optional-Boss/static/js/main.08ad682e.chunk.js.map",
     "runtime-main.js": "/Optional-Boss/static/js/runtime-main.5efc760c.js",
     "runtime-main.js.map": "/Optional-Boss/static/js/runtime-main.5efc760c.js.map",
     "static/js/2.154c2026.chunk.js": "/Optional-Boss/static/js/2.154c2026.chunk.js",
     "static/js/2.154c2026.chunk.js.map": "/Optional-Boss/static/js/2.154c2026.chunk.js.map",
     "index.html": "/Optional-Boss/index.html",
-    "precache-manifest.14c8ee44e05e41716f53d74e49cac569.js": "/Optional-Boss/precache-manifest.14c8ee44e05e41716f53d74e49cac569.js",
+    "precache-manifest.f33371322f73bc7eec77261683953fcd.js": "/Optional-Boss/precache-manifest.f33371322f73bc7eec77261683953fcd.js",
     "service-worker.js": "/Optional-Boss/service-worker.js",
-    "static/css/main.94e7220d.chunk.css.map": "/Optional-Boss/static/css/main.94e7220d.chunk.css.map",
+    "static/css/main.2c29f020.chunk.css.map": "/Optional-Boss/static/css/main.2c29f020.chunk.css.map",
     "static/media/Instagram-Logo-COLORED.png": "/Optional-Boss/static/media/Instagram-Logo-COLORED.349a7885.png",
     "static/media/OB logo.jpg": "/Optional-Boss/static/media/OB logo.66380ffb.jpg",
     "static/media/Twitch-Logo-COLORED.png": "/Optional-Boss/static/media/Twitch-Logo-COLORED.3e5e9c82.png",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.5efc760c.js",
     "static/js/2.154c2026.chunk.js",
-    "static/css/main.94e7220d.chunk.css",
-    "static/js/main.22330731.chunk.js"
+    "static/css/main.2c29f020.chunk.css",
+    "static/js/main.08ad682e.chunk.js"
   ]
 }
