@@ -7,6 +7,8 @@ import axios from 'axios';
 import './Twitch.css';
 import {members} from './../../members';
 
+import tw from '../../assets/Twitch-Logo-COLORED.png';
+
 
 class Twitch extends Component {
     state= {
@@ -52,13 +54,16 @@ class Twitch extends Component {
             <div>
                 <div className='twitch__container'>
                     <div className='twitch__header'>
-                        <h2 style={{'marginBottom': '0px'}}>Who's online?</h2>
-                        <p style={{'color':'gray', 'marginTop': '0px'}}>Updates every 30 secs</p>
+                        <img src={tw} alt='Twitch Logo'/>
+                        <div>
+                            <h2 style={{'marginBottom': '0px'}}>Who's online?</h2>
+                            <p style={{'color':'gray', 'marginTop': '0px'}}>Updates every 30 secs</p>
+                        </div>
                     </div>
                     <div className='twitch__main'>
                         {
                             (onlineMembers.length !== 0) 
-                            ?   <div>
+                            ?   <div className='twitch__details'>
                                     {onlineMembers.map((e, i) => <Status key={i} member={e}/> )} 
                                 </div>
                             :   <div>

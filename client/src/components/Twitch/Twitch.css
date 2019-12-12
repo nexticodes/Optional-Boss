@@ -9,6 +9,9 @@
     margin-bottom: 5vh;
     border-radius: 5px;
     justify-content: center;
+    -webkit-box-shadow: 0px 12px 10px -6px rgba(103,28,115,1);
+-moz-box-shadow: 0px 12px 10px -6px rgba(103,28,115,1);
+box-shadow: 0px 12px 10px -6px rgba(103,28,115,1);
 }
 
 .twitch__header {
@@ -16,6 +19,25 @@
     background: black;
     color: white;
     border-radius: 3px 3px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.twitch__details {
+    box-shadow: 0px 0px 10px inset black; 
+}
+
+.twitch__header img {
+    height: 30px;
+    width: 30px;
+    margin-left: 30px;
+    margin-right: -55px;    
+}
+
+.twitch__header div {
+    margin-right: auto;
+    margin-left: auto;
 }
 
 
