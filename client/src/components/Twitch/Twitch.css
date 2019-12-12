@@ -1,13 +1,14 @@
 .twitch__container {
     display: flex;
     flex-direction: column;
-    width: 90vw;
+    width: 70vw;
     margin-left: auto;
     margin-right: auto;
     border: 2px solid black;
     margin-top: 5vh;
     margin-bottom: 5vh;
     border-radius: 5px;
+    justify-content: center;
 }
 
 .twitch__header {
@@ -16,6 +17,7 @@
     color: white;
     border-radius: 3px 3px 0px 0px;
 }
+
 
 @media (min-width: 769px){
     .twitch__container {
