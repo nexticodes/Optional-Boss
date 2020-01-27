@@ -35,7 +35,7 @@ class Twitter extends Component {
     componentDidMount(){
         this.getTweets();
         this.runRetweetBot();
-        setInterval(this.getTweets, 15000);
+        setInterval(this.getTweets(), 15000);
         setInterval(this.runRetweetBot(), 20000);
     };
 
