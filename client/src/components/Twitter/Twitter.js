@@ -12,23 +12,19 @@ class Twitter extends Component {
     }
 
     getTweets(){
-        setInterval(() => {
-            axios.get('https://optional-boss.herokuapp.com/api/twitter/tweets')
-                    .then((res) => {
-                        this.setState({tweets: res.data.data});
-                    })
-                    .catch(err => console.log(err));
-        }, 15000);
+        axios.get('https://optional-boss.herokuapp.com/api/twitter/tweets')
+                .then((res) => {
+                    this.setState({tweets: res.data.data});
+                })
+                .catch(err => console.log(err));
     }
 
     runRetweetBot(){
-        setInterval(() => {
-            axios.get('https://optional-boss.herokuapp.com/api/bot/retweet')
-            .then((res) => {
-                console.log('Retweet Bot Called')
-            })
-            .catch(err => console.log('Something happened'));
-        }, 20000)
+        axios.get('https://optional-boss.herokuapp.com/api/bot/retweet')
+        .then((res) => {
+            console.log('Retweet Bot Called')
+        })
+        .catch(err => console.log('Something happened'));
     }
 
     getTime(tweetTime){
@@ -39,6 +35,8 @@ class Twitter extends Component {
     componentDidMount(){
         this.getTweets();
         this.runRetweetBot();
+        setInterval(this.getTweets, 15000);
+        setInterval(this.runRetweetBot(), 20000);
     };
 
     componentWillUnmount(){
