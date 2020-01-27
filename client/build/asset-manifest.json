@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Optional-Boss/static/css/main.1262a0c3.chunk.css",
-    "main.js": "/Optional-Boss/static/js/main.855107ae.chunk.js",
-    "main.js.map": "/Optional-Boss/static/js/main.855107ae.chunk.js.map",
+    "main.js": "/Optional-Boss/static/js/main.6b7a4aaf.chunk.js",
+    "main.js.map": "/Optional-Boss/static/js/main.6b7a4aaf.chunk.js.map",
     "runtime-main.js": "/Optional-Boss/static/js/runtime-main.5efc760c.js",
     "runtime-main.js.map": "/Optional-Boss/static/js/runtime-main.5efc760c.js.map",
     "static/js/2.d5bb68b3.chunk.js": "/Optional-Boss/static/js/2.d5bb68b3.chunk.js",
     "static/js/2.d5bb68b3.chunk.js.map": "/Optional-Boss/static/js/2.d5bb68b3.chunk.js.map",
     "index.html": "/Optional-Boss/index.html",
-    "precache-manifest.8e231f99f95a538bec75c86e8594b0d1.js": "/Optional-Boss/precache-manifest.8e231f99f95a538bec75c86e8594b0d1.js",
+    "precache-manifest.9191341ca26116ae178531df4f16e902.js": "/Optional-Boss/precache-manifest.9191341ca26116ae178531df4f16e902.js",
     "service-worker.js": "/Optional-Boss/service-worker.js",
     "static/css/main.1262a0c3.chunk.css.map": "/Optional-Boss/static/css/main.1262a0c3.chunk.css.map",
     "static/media/Discord-Logo-COLORED.png": "/Optional-Boss/static/media/Discord-Logo-COLORED.dd0711bf.png",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.5efc760c.js",
     "static/js/2.d5bb68b3.chunk.js",
     "static/css/main.1262a0c3.chunk.css",
-    "static/js/main.855107ae.chunk.js"
+    "static/js/main.6b7a4aaf.chunk.js"
   ]
 }
