@@ -25,8 +25,8 @@ class Twitter extends Component {
             .then((res) => {
                 console.log('Retweet Bot Called')
             })
-            .catch(err => console.log('Something happened ', err));
-        }, 10000)
+            .catch(err => console.log('Something happened'));
+        }, 30000)
     }
 
     getTime(tweetTime){
