@@ -30,7 +30,7 @@ router.get('/retweet', (req, res, next) => {
             if (id_str && !tweetsRetweeted.includes(id_str)){
                 // Tell Twitter to rt.
                 tweetsRetweeted.push(id_str);
-                Twitter.post('statuses/retweet/:id', {
+                T.post('statuses/retweet/:id', {
                     id: id_str
                 }, (err, res) => {
                     // RT success
