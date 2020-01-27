@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/Optional-Boss/static/css/main.2c29f020.chunk.css",
-    "main.js": "/Optional-Boss/static/js/main.08ad682e.chunk.js",
-    "main.js.map": "/Optional-Boss/static/js/main.08ad682e.chunk.js.map",
+    "main.css": "/Optional-Boss/static/css/main.1262a0c3.chunk.css",
+    "main.js": "/Optional-Boss/static/js/main.01bead13.chunk.js",
+    "main.js.map": "/Optional-Boss/static/js/main.01bead13.chunk.js.map",
     "runtime-main.js": "/Optional-Boss/static/js/runtime-main.5efc760c.js",
     "runtime-main.js.map": "/Optional-Boss/static/js/runtime-main.5efc760c.js.map",
-    "static/js/2.154c2026.chunk.js": "/Optional-Boss/static/js/2.154c2026.chunk.js",
-    "static/js/2.154c2026.chunk.js.map": "/Optional-Boss/static/js/2.154c2026.chunk.js.map",
+    "static/js/2.d5bb68b3.chunk.js": "/Optional-Boss/static/js/2.d5bb68b3.chunk.js",
+    "static/js/2.d5bb68b3.chunk.js.map": "/Optional-Boss/static/js/2.d5bb68b3.chunk.js.map",
     "index.html": "/Optional-Boss/index.html",
-    "precache-manifest.f33371322f73bc7eec77261683953fcd.js": "/Optional-Boss/precache-manifest.f33371322f73bc7eec77261683953fcd.js",
+    "precache-manifest.02bde9f25912845800ee5b21f7d6f45d.js": "/Optional-Boss/precache-manifest.02bde9f25912845800ee5b21f7d6f45d.js",
     "service-worker.js": "/Optional-Boss/service-worker.js",
-    "static/css/main.2c29f020.chunk.css.map": "/Optional-Boss/static/css/main.2c29f020.chunk.css.map",
+    "static/css/main.1262a0c3.chunk.css.map": "/Optional-Boss/static/css/main.1262a0c3.chunk.css.map",
+    "static/media/Discord-Logo-COLORED.png": "/Optional-Boss/static/media/Discord-Logo-COLORED.dd0711bf.png",
     "static/media/Instagram-Logo-COLORED.png": "/Optional-Boss/static/media/Instagram-Logo-COLORED.349a7885.png",
     "static/media/OB logo.jpg": "/Optional-Boss/static/media/OB logo.66380ffb.jpg",
     "static/media/Twitch-Logo-COLORED.png": "/Optional-Boss/static/media/Twitch-Logo-COLORED.3e5e9c82.png",
     "static/media/Twitter-Logo-COLORED.png": "/Optional-Boss/static/media/Twitter-Logo-COLORED.6742e263.png",
-    "static/media/discord.png": "/Optional-Boss/static/media/discord.268c0ca6.png",
     "static/media/live.png": "/Optional-Boss/static/media/live.dc0ea39c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.5efc760c.js",
-    "static/js/2.154c2026.chunk.js",
-    "static/css/main.2c29f020.chunk.css",
-    "static/js/main.08ad682e.chunk.js"
+    "static/js/2.d5bb68b3.chunk.js",
+    "static/css/main.1262a0c3.chunk.css",
+    "static/js/main.01bead13.chunk.js"
   ]
 }

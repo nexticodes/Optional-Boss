@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "45de346041113bae8c4813de90d970f7",
+    "revision": "ff28704576b0b3f6b71872efefb0406d",
     "url": "/Optional-Boss/index.html"
   },
   {
-    "revision": "0052970e50f060e81d0b",
-    "url": "/Optional-Boss/static/css/main.2c29f020.chunk.css"
+    "revision": "ab86ef45943e352d7173",
+    "url": "/Optional-Boss/static/css/main.1262a0c3.chunk.css"
   },
   {
-    "revision": "212f0b8e53e453b09b9a",
-    "url": "/Optional-Boss/static/js/2.154c2026.chunk.js"
+    "revision": "697eb061cbf8234f9240",
+    "url": "/Optional-Boss/static/js/2.d5bb68b3.chunk.js"
   },
   {
-    "revision": "0052970e50f060e81d0b",
-    "url": "/Optional-Boss/static/js/main.08ad682e.chunk.js"
+    "revision": "ab86ef45943e352d7173",
+    "url": "/Optional-Boss/static/js/main.01bead13.chunk.js"
   },
   {
     "revision": "29b73e6f269ac3a5fca9",
     "url": "/Optional-Boss/static/js/runtime-main.5efc760c.js"
+  },
+  {
+    "revision": "dd0711bf79d0c874a81b9028db87816d",
+    "url": "/Optional-Boss/static/media/Discord-Logo-COLORED.dd0711bf.png"
   },
   {
     "revision": "349a788541089ef3f7bf0b61701e4431",
@@ -34,10 +38,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6742e2630afdfb3615177230a4a49af6",
     "url": "/Optional-Boss/static/media/Twitter-Logo-COLORED.6742e263.png"
-  },
-  {
-    "revision": "268c0ca64d0e4cb639e003236f214a5f",
-    "url": "/Optional-Boss/static/media/discord.268c0ca6.png"
   },
   {
     "revision": "dc0ea39c7a39b6fa7e6bbcab2d2c1b63",

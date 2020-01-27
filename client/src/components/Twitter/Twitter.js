@@ -19,6 +19,16 @@ class Twitter extends Component {
                 .catch(err => console.log(err));
     }
 
+    runRetweetBot(){
+        setInterval(() => {
+            axios.get('https://optional-boss.herokuapp.com/api/bot/retweet')
+            .then((res) => {
+                console.log('Retweet Bot Called')
+            })
+            .catch(err => console.log('Something happened ', err));
+        }, 10000)
+    }
+
     getTime(tweetTime){
         let t = new Date(tweetTime);
         return t.toLocaleTimeString();
@@ -26,6 +36,7 @@ class Twitter extends Component {
 
     componentDidMount(){
         this.getTweets();
+        this.runRetweetBot();
         setInterval(() => this.getTweets(), 30000);
     };
 
